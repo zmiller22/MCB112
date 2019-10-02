@@ -1,0 +1,13 @@
+{
+	"n_targets": 10,
+	"n_bootstraps": 0,
+	"n_processed": 100000,
+	"n_pseudoaligned": 99983,
+	"n_unique": 668,
+	"p_pseudoaligned": 100.0,
+	"p_unique": 0.7,
+	"kallisto_version": "0.46.0",
+	"index_version": 10,
+	"start_time": "Tue Sep 24 22:03:15 2019",
+	"call": "kallisto quant -i moriarty_transcripts.idx -o moriarty_output --single -l 150 -s 20 arc.fastq.gz"
+}
